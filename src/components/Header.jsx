@@ -18,6 +18,9 @@ const Header = () => {
     return ( 
         <header className={styles.header}>
             <p>Dev Junior</p>
+            <p>Dev Junior</p>
+            <p>Dev Junior</p>
+            <p>Dev Junior</p>
             <span onClick={handleMenu} className={`material-symbols-outlined ${styles.menu_icon}`}>
             menu
             </span>
