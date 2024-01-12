@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    background-color: #151F30;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    position: relative;
+}
+
+.menu_icon {
+    display: none;
+}
+
+.menu_list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu_options {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    background-color: #151F30;
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 1px;
+}
+
+@media (max-width: 600px) {
+    .navbar{
+        display: none;
+    }
+    .menu_icon {
+        cursor: pointer;
+        font-size: 2em;
+        display: block;
+    }
+} 
